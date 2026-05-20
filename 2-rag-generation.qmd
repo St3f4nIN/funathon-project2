@@ -468,6 +468,7 @@ The default sample size is `SAMPLE_SIZE = 100`, which keeps inference fast and a
 #| code-overflow: scroll
 
 from tqdm import tqdm
+import pandas as pd
 
 records = []
 
@@ -729,7 +730,7 @@ from plotnine import (
     scale_color_manual, scale_linetype_manual,
     labs, theme_minimal,
 )
-import pandas as pd
+
 
 # --- Left: confidence distribution by correctness ---
 results_plot = results.assign(
