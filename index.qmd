@@ -62,10 +62,10 @@ The two parts below are independent. You can tackle either one, or both, in any 
 
 ## Part 1: Supervised learning ([Supervised learning](1-ttc.qmd))
 
-Fine-tune a deep learning text classifier on a labelled dataset of *(activity label, NACE code)* pairs, using a pretrained transformer as backbone. You will learn how to:
+Train a deep learning text classifier on a labelled dataset of *(activity label, NACE code)* pairs, using Insee's [torchTextClassifiers](https://github.com/InseeFrLab/torchTextClassifiers/) package. You will learn how to:
 
 - Load and preprocess a labelled dataset
-- Fine-tune a pretrained model on the multi-class classification task
+- Train a deep learning model on the multi-class classification task
 - Evaluate the resulting classifier
 - Log experiments and model artifacts with **MLflow** for reproducibility
 
